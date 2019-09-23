@@ -1,0 +1,21 @@
+{
+  "name": "nodepuzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/2048game.js",
+  "bin": {
+    "game2048": "./bin/2048game.js"
+  },
+  "scripts": {
+    "start": "node ./bin/2048game.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2",
+    "readline-sync": "^1.4.10",
+    "table": "^5.4.6"
+  }
+}
